@@ -1,0 +1,31 @@
+# imper.ai
+
+> imper.ai is a workforce identity security platform that stops AI-driven impersonation, deepfakes, voice clones, and social-engineering attacks in real time across enterprise communication channels (Zoom, Microsoft Teams, Google Meet, Slack). It correlates hard-to-fake device, network, and behavioral signals to validate identity at high-risk moments — hiring, employee enrollment, and help-desk verification. Founded by cyber-intelligence veterans; backed by Redpoint Ventures and Battery Ventures. imper.ai currently publishes a product knowledge base rather than a public developer API program; there is no public OpenAPI, /.well-known discovery surface, or SDK registry package as of this profile.
+
+## Product
+- [Platform](https://imper.ai/platform/): Real-time identity validation and impersonation defense across communication channels.
+- [All Integrations](https://imper.ai/all-integrations/): Embedded into ATS, HRIS, IdP, ITSM, PAM, IVR, meeting, and alerting/SIEM platforms.
+
+## Solutions
+- [Secure your workforce](https://imper.ai/secure-your-workforce/)
+- [Secure your hiring](https://imper.ai/secure-hiring/)
+- [Prevent help desk attacks](https://imper.ai/prevent-help-desk-attacks/)
+- [Stop shadow workforce](https://imper.ai/stop-shadow-workforce)
+
+## Docs
+- [Documentation / Knowledge Base](https://docs.imper.ai/): Product configuration and usage guides for hiring, enrollment, help desk, and continuous verification.
+
+## Resources
+- [Blog](https://imper.ai/blog/)
+- [Threat Research](https://imper.ai/threat-research/)
+- [Resource Hub](https://imper.ai/resource-hub/)
+- [Press & Media](https://imper.ai/press-media/)
+
+## Company
+- [About us](https://imper.ai/about-us/)
+- [Careers](https://imper.ai/careers/)
+- [Contact us](https://imper.ai/contact-us/)
+
+## Legal
+- [Privacy Policy](https://imper.ai/imper-ai-privacy-policy/)
+- [Terms and Conditions](https://imper.ai/terms-and-conditions/)

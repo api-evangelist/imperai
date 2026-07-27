@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of /.well-known/* on imper.ai + docs.imper.ai
+host: https://imper.ai
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /security.txt
+  status: 404
+docs_host: https://docs.imper.ai
+docs_documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /openapi.json
+  status: 404
+- path: /openapi.yaml
+  status: 404
+notes: >-
+  No /.well-known/ discovery surface published on the marketing or documentation host as of
+  the probe date. docs.imper.ai is a VitePress product knowledge base (returns SPA 404 for
+  llms.txt and openapi paths). imper.ai publishes no public developer API program.

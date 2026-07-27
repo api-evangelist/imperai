@@ -1,7 +1,18 @@
 aid: imperai
 name: Imper.AI
-description: Imper.AI is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  imper.ai is an Israeli workforce identity security company that stops AI-driven
+  impersonation, deepfakes, voice clones, and social-engineering attacks in real time
+  across enterprise communication channels such as Zoom, Microsoft Teams, Google Meet,
+  and Slack. Rather than scanning message content for anomalies, the platform correlates
+  hard-to-fake signals — device telemetry, network diagnostics, and behavioral patterns —
+  to validate identity at high-risk lifecycle events including hiring, employee enrollment,
+  and help-desk verification. Founded by cyber-intelligence veterans and backed by Redpoint
+  Ventures and Battery Ventures (about $34M raised), imper.ai integrates with ATS, HRIS, IdP,
+  ITSM, PAM, IVR, and meeting platforms, and is deployed across financial, health care, and
+  technology enterprises. This profile was seeded from Battery Ventures' portfolio and
+  enriched by the API Evangelist pipeline; imper.ai currently publishes a product knowledge
+  base rather than a public developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/imperai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,57 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://imper.ai/wp-content/uploads/2025/11/imper-ai-logo.jpg
 tags:
 - Company
+- Security
+- Cybersecurity
+- Identity
+- Deepfake Detection
+- Impersonation Defense
+- Workforce Security
+- Fraud Prevention
 apis: []
+common:
+- type: Website
+  url: https://imper.ai/
+- type: Documentation
+  url: https://docs.imper.ai/
+- type: Blog
+  url: https://imper.ai/blog/
+- type: Support
+  url: https://imper.ai/contact-us/
+- type: PrivacyPolicy
+  url: https://imper.ai/imper-ai-privacy-policy/
+- type: TermsOfService
+  url: https://imper.ai/terms-and-conditions/
+- type: DomainSecurity
+  url: security/imperai-domain-security.yml
+- type: WellKnown
+  url: well-known/imperai-well-known.yml
+- type: LLMsTxt
+  url: llms/imperai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
